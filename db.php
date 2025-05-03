@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';
-$user = 'root'; 
-$pass = '';     
+$user = 'root';
+$pass = '';
 $dbname = 'student_db';
 
 try {
@@ -10,4 +10,3 @@ try {
 } catch (PDOException $e) {
     die("Database Connection Failed: " . $e->getMessage());
 }
-?>

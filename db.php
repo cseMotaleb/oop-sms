@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';
-$user = 'root'; // তোমার ইউজার যদি আলাদা হয় সেটাও দাও
-$pass = '';     // XAMPP হলে পাসওয়ার্ড সাধারণত ফাঁকা
+$user = 'root'; 
+$pass = '';     
 $dbname = 'student_db';
 
 try {
